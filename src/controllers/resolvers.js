@@ -1,9 +1,6 @@
 //define as resolvers ou 'rotas' da aplicação
 const User = require('../model/User')
 
-
-const users = []
-
 module.exports = {
   Query: {
     users: () => User.find(),
