@@ -7,4 +7,5 @@ const server = new GraphQLServer({
   resolvers: resolvers
 })
 
-server.start()
+server.start({ port: 3000 })
+console.log('servidor online em http://localhost:3000/ ')
