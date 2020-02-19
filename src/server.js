@@ -1,6 +1,6 @@
 const { GraphQLServer } = require('graphql-yoga')
 const path = require('path')
-const resolvers = require('./controllers/resolversArray')
+const resolvers = require('./controllers/resolvers')
 
 const server = new GraphQLServer({
   typeDefs: path.resolve(__dirname, 'schema.graphql'),

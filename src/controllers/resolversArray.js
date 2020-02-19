@@ -1,9 +1,9 @@
 //define as resolvers ou 'rotas' da aplicação
 
 const users = [
-  { id: 1, name: 'Rodrigo Rafael', email: 'rodrigorafaeldamaceno@gmail.com', age: 25 },
-  { id: 2, name: 'Cleonice da maceno', email: 'cleonice@gmail.com', age: 38 },
-  { id: 3, name: 'Jair Dias de Souza', email: 'jair@gmail.com', age: 40 }
+  { id: '1', name: 'Rodrigo Rafael', email: 'rodrigorafaeldamaceno@gmail.com', age: 25 },
+  { id: '2', name: 'Cleonice da maceno', email: 'cleonice@gmail.com', age: 38 },
+  { id: '3', name: 'Jair Dias de Souza', email: 'jair@gmail.com', age: 40 }
 ]
 
 module.exports = {

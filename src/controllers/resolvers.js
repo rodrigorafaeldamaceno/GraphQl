@@ -7,7 +7,9 @@ module.exports = {
     user: (_, { id }) => User.findById(id)
   },
   Mutation: {
-    createUser: (_, { name, email, age }) => User.create({ name, email, age })
+    createUser: (_, { name, email, age }) => User.create({ name, email, age }),
+    editUsers: (_, { id, name, email, age }) => User.findByIdAndUpdate(id, { name, email, age }),
+    deleteUser: (_, { id }) => User.findByIdAndRemove(id)
   }
 }
 
